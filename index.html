@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Daily Oracle</title>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.9.0/d3.min.js" integrity="sha512-vc58qvvBdrDR4etbxMdlTt4GBQk1qjvyORR2nrsPsFPyrs+/u5c3+1Ct6upOgdZoIl7eq6k3a1UPDSNAQi/32A==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="https://cdn.plot.ly/plotly-3.0.1.min.js" charset="utf-8"></script>
+  
+</head>
+<body>
+    <noscript>Plesae enable javascrip</noscript>
+    <h3>Hello! Here are some results of agenticAI's daily oracle project</h3>
+    <section>
+        <div>
+            <p>
+                What is this<br> mmm 
+                icl ts pmo
+            </p>
+            <p id="output"></p>
+        </div>
+        
+    </section>
+    <section>
+        <div>
+            <h2>Project summary</h4>
+            <p>Many existing evaluation benchmarks for Large Language Models (LLMs) quickly become outdated
+due to the emergence of new models and training data. These benchmarks also fall short in assessing
+how LLM performance changes over time, as they consist of static questions without a temporal dimension. To address these limitations, we propose using future event prediction as a continuous evaluation
+method to assess LLMs’ temporal generalization and forecasting abilities. Our benchmark, Daily Oracle, automatically generates question-answer (QA) pairs from daily news, challenging LLMs to predict
+“future” event outcomes. Our findings reveal that as pre-training data becomes outdated, LLM performance degrades over time. While Retrieval Augmented Generation (RAG) has the potential to enhance
+prediction accuracy, the performance degradation pattern persists, highlighting the need for continuous
+model updates.</p>
+        </div>
+        
+    </section>
+    <h2>Evaluation</h2>
+    <div>
+        <h3>Overall</h3>
+        <div id="plot-overall"></div>
+    </div>
+     <div>
+        <h3>By Model</h3>
+        <h4>GPT-3.5</h4>
+        <h4>GPT-4</h4>
+        <h4>GPT-4o-mini</h4>
+        <h4>GPT-4o</h4>
+
+    </div>
+    
+
+</body>
+</html>
