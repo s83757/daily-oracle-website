@@ -8,7 +8,7 @@
   
 </head>
 <body>
-    <noscript>Plesae enable javascrip</noscript>
+    <noscript>Plesae enable javascript</noscript>
     <h3>Hello! Here are some results of agenticAI's daily oracle project</h3>
     <section>
         <div>
@@ -36,17 +36,36 @@ model updates.</p>
     <h2>Evaluation</h2>
     <div>
         <h3>Overall</h3>
-        <div id="plot-overall"></div>
+        <div id="plot-overall" style="width: 600px; height: 500px;"></div>
     </div>
      <div>
         <h3>By Model</h3>
         <h4>GPT-3.5</h4>
+            <div style="width: 100%; overflow: hidden;">
+                <div id="plot-gpt35-tf" style="width: 600px; height: 500px; float:left;"></div>
+                <div id="plot-gpt35-mc" style="width: 600px; height: 500px; margin-left:640px;"></div>
+            </div>
+        
         <h4>GPT-4</h4>
+            <div style="width: 100%; overflow: hidden;">
+                <div id="plot-gpt4-tf" style="width: 600px; height: 500px; float:left;"></div>
+                <div id="plot-gpt4-mc" style="width: 600px; height: 500px; margin-left:640px;"></div>
+            </div>
         <h4>GPT-4o-mini</h4>
+            <div style="width: 100%; overflow: hidden;">
+                <div id="plot-gpt4o-mini-tf" style="width: 600px; height: 500px; float:left;"></div>
+                <div id="plot-gpt4o-mini-mc" style="width: 600px; height: 500px; margin-left:640px;"></div>
+            </div>
         <h4>GPT-4o</h4>
+            <div style="width: 100%; overflow: hidden;">
+                <div id="plot-gpt4o-tf" style="width: 600px; height: 500px; float:left;"></div>
+                <div id="plot-gpt4o-mc" style="width: 600px; height: 500px; margin-left:640px;"></div>
+            </div>
 
     </div>
     
+
+    <script src="static/js/script.js"></script>
 
 </body>
 </html>
